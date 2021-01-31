@@ -8,6 +8,9 @@ This project also supports testing and linting.
 Development
 `yarn run dev` or `npm run dev`
 
+Linting
+`yarn run lint` or `npm run lint`
+
 Build
 `yarn run build` or `npm run build`
 
@@ -16,3 +19,7 @@ Testing
 
 Running the App
 `yarn run start` or `npm run start`
+
+## Linting
+
+Linting follows [Airbnb](https://github.com/airbnb/javascript) Conventions.

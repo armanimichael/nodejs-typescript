@@ -1,1 +1,1 @@
-console.log('Ready to go!');
+console.log('This should give a warning... No console usage 😢');
