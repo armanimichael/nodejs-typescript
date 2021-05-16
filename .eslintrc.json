@@ -4,6 +4,7 @@
     "es2021": true
   },
   "extends": [
+    "prettier",
     "eslint:recommended",
     "airbnb-base",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -14,7 +15,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["prettier", "@typescript-eslint"],
   "settings": {
     "import/resolver": {
       "node": {
@@ -23,6 +24,7 @@
     }
   },
   "rules": {
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "prettier/prettier": ["error"]
   }
 }
